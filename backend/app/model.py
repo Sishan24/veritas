@@ -1,10 +1,10 @@
-import torch
+﻿import torch
 from torch import nn
 
 LABELS = ["SUPPORTED", "REFUTED", "NOT_ENOUGH_INFO"]
 
 class ClaimEvidenceBiLSTMAttention(nn.Module):
-    \"\"\"BiLSTM encoder with learned attention over the concatenated pair tokens.\"\"\"
+    """BiLSTM encoder with learned attention over the concatenated pair tokens."""
     def __init__(self, vocab_size: int, embedding_dim=96, hidden_dim=96, num_classes=3, dropout=0.3):
         super().__init__()
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
@@ -36,3 +36,4 @@ class ClaimEvidenceBiLSTMAttention(nn.Module):
         weights = torch.softmax(scores, dim=1)
         pooled = torch.sum(encoded * weights.unsqueeze(-1), dim=1)
         return self.classifier(self.dropout(pooled)), weights
+
