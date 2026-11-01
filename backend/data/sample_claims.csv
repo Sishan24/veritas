@@ -1,0 +1,13 @@
+claim,evidence,label
+"Water freezes at zero degrees Celsius under standard pressure.","At standard atmospheric pressure, pure water freezes at 0 degrees Celsius.",SUPPORTED
+"The capital of France is Berlin.","Paris is the capital and largest city of France.",REFUTED
+"The university opened a new library in 2024.","The supplied passage discusses student examinations but gives no library opening date.",NOT_ENOUGH_INFO
+"The Earth orbits the Sun.","Earth travels around the Sun once approximately every 365 days.",SUPPORTED
+"The Moon is a star.","The Moon is Earth's natural satellite and reflects sunlight.",REFUTED
+"The report was published on Tuesday.","The passage describes the report's findings but does not state its publication date.",NOT_ENOUGH_INFO
+"Plants use sunlight during photosynthesis.","Photosynthesis allows green plants to use light energy to convert carbon dioxide and water into sugars.",SUPPORTED
+"Humans have four lungs.","Humans normally have two lungs, located in the chest.",REFUTED
+"The new policy will begin next month.","The supplied statement describes the policy but does not mention when it begins.",NOT_ENOUGH_INFO
+"Sound travels faster in air than in water.","Sound generally travels faster through water than through air.",REFUTED
+"An adult human typically has 206 bones.","The adult human skeleton typically consists of 206 bones.",SUPPORTED
+"The company earned a profit last year.","The article mentions revenue but provides no information about profit.",NOT_ENOUGH_INFO
